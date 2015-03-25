@@ -1,0 +1,118 @@
+﻿Build started 2015-03-25 11:21:19.
+     1>Project "E:\MOJE DOKUMENTY\GRZEGORZ\MEGA\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\SŁOWNIK.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Programy\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ekran.c uzytkownik.c main.c pamiec.c pliki.c
+         pliki.c
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\pliki.c(24): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\pliki.c(25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\pliki.c(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\pliki.c(30): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\pliki.c(31): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\pliki.c(50): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\pliki.c(58): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\pliki.c(90): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\stdio.h(211) : see declaration of 'fopen'
+         pamiec.c
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\pamiec.c(12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\pamiec.c(14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\pamiec.c(16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+         main.c
+         uzytkownik.c
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(10): warning C4129: '(' : unrecognized character escape sequence
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(12): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(93): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(118): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(148): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(171): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(172): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(118) : see declaration of 'strcat'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(173): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(186) : see declaration of 'strncat'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(174): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(175): warning C4047: 'function' : 'char *' differs in levels of indirection from 'char (*)[1000]'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(175): warning C4024: 'strncpy' : different types for formal and actual parameter 1
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(175): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(176): warning C4047: 'function' : 'char *' differs in levels of indirection from 'char (*)[1000]'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(176): warning C4024: 'strcpy' : different types for formal and actual parameter 1
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(196): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(201): warning C4047: 'function' : 'zbior *' differs in levels of indirection from 'zbior **'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(201): warning C4024: 'wyszukiwanie_litery' : different types for formal and actual parameter 1
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(219): warning C4047: 'function' : 'char *' differs in levels of indirection from 'char (*)[1000]'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(219): warning C4024: 'pobierz_tekst' : different types for formal and actual parameter 1
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(230): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(237): warning C4028: formal parameter 1 different from declaration
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(290): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(303): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(344): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(359): warning C4047: 'function' : 'int' differs in levels of indirection from 'int **'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(359): warning C4024: 'tolower' : different types for formal and actual parameter 1
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(379): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(380): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(400): warning C4101: 'tmp' : unreferenced local variable
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(435): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(455): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(463): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(493): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(498): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(504): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(519): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(543): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(545): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(548): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(551): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(569): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(572): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\uzytkownik.c(587): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\programy\visual studio 2013\vc\include\conio.h(131) : see declaration of 'getch'
+         ekran.c
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\ekran.c(19): warning C4129: '#' : unrecognized character escape sequence
+     1>e:\moje dokumenty\grzegorz\mega\grzesiek\dokumenty\studia\pk\projekt\słownik\ekran.c(75): warning C4129: ' ' : unrecognized character escape sequence
+         Generating Code...
+       Link:
+         F:\Programy\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MOJE DOKUMENTY\GRZEGORZ\MEGA\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\Debug\SŁOWNIK.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\MOJE DOKUMENTY\GRZEGORZ\MEGA\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\Debug\SŁOWNIK.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MOJE DOKUMENTY\GRZEGORZ\MEGA\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\Debug\SŁOWNIK.lib" /MACHINE:X86 Debug\ekran.obj
+         Debug\uzytkownik.obj
+         Debug\main.obj
+         Debug\pamiec.obj
+         Debug\pliki.obj
+         SŁOWNIK.vcxproj -> E:\MOJE DOKUMENTY\GRZEGORZ\MEGA\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\Debug\SŁOWNIK.exe
+     1>Done Building Project "E:\MOJE DOKUMENTY\GRZEGORZ\MEGA\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\SŁOWNIK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.53

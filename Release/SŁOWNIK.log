@@ -1,0 +1,105 @@
+﻿Build started 2013-08-31 21:44:59.
+     1>Project "D:\DOKUMENTY\GRZEGORZ\Dysk Google\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\SŁOWNIK.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\SŁOWNIK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programy\Visual Studio 2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ekran.c pamiec.c uzytkownik.c
+         ekran.c
+     1>ekran.c(19): warning C4129: '#' : unrecognized character escape sequence
+     1>ekran.c(75): warning C4129: ' ' : unrecognized character escape sequence
+         pamiec.c
+     1>pamiec.c(12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>pamiec.c(14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>pamiec.c(16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>pamiec.c(147): warning C4028: formal parameter 1 different from declaration
+         uzytkownik.c
+     1>uzytkownik.c(10): warning C4129: '(' : unrecognized character escape sequence
+     1>uzytkownik.c(12): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(93): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>uzytkownik.c(104): warning C4047: 'function' : 'zbior *' differs in levels of indirection from 'slowo **'
+     1>uzytkownik.c(104): warning C4024: 'sortowanie_tab' : different types for formal and actual parameter 1
+     1>uzytkownik.c(116): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(143): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(164): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>uzytkownik.c(165): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>uzytkownik.c(166): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\string.h(175) : see declaration of 'strncat'
+     1>uzytkownik.c(167): warning C4018: '>=' : signed/unsigned mismatch
+     1>uzytkownik.c(168): warning C4047: 'function' : 'char *' differs in levels of indirection from 'char (*)[1000]'
+     1>uzytkownik.c(168): warning C4024: 'strncpy' : different types for formal and actual parameter 1
+     1>uzytkownik.c(168): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>uzytkownik.c(169): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>uzytkownik.c(169): warning C4047: 'function' : 'char *' differs in levels of indirection from 'char (*)[1000]'
+     1>uzytkownik.c(169): warning C4024: 'strcpy' : different types for formal and actual parameter 1
+     1>uzytkownik.c(188): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(193): warning C4047: 'function' : 'zbior *' differs in levels of indirection from 'zbior **'
+     1>uzytkownik.c(193): warning C4024: 'wyszukiwanie_litery' : different types for formal and actual parameter 1
+     1>uzytkownik.c(208): warning C4047: 'function' : 'char *' differs in levels of indirection from 'char (*)[1000]'
+     1>uzytkownik.c(208): warning C4024: 'pobierz_tekst' : different types for formal and actual parameter 1
+     1>uzytkownik.c(221): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(228): warning C4028: formal parameter 1 different from declaration
+     1>uzytkownik.c(274): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(287): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(320): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(335): warning C4047: 'function' : 'int' differs in levels of indirection from 'int **'
+     1>uzytkownik.c(335): warning C4024: 'tolower' : different types for formal and actual parameter 1
+     1>uzytkownik.c(353): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>uzytkownik.c(354): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>uzytkownik.c(371): warning C4101: 'tmp' : unreferenced local variable
+     1>uzytkownik.c(405): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>uzytkownik.c(424): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>uzytkownik.c(432): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>uzytkownik.c(459): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(464): warning C4018: '<' : signed/unsigned mismatch
+     1>uzytkownik.c(470): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(482): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(502): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(504): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(507): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>uzytkownik.c(510): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(525): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>uzytkownik.c(528): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+     1>uzytkownik.c(541): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programy\Visual Studio 2010\VC\include\conio.h(128) : see declaration of 'getch'
+       Link:
+         d:\Programy\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\DOKUMENTY\GRZEGORZ\Dysk Google\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\Release\SŁOWNIK.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\SŁOWNIK.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\DOKUMENTY\GRZEGORZ\Dysk Google\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\Release\SŁOWNIK.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\DOKUMENTY\GRZEGORZ\Dysk Google\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\Release\SŁOWNIK.lib" /MACHINE:X86 Release\ekran.obj
+         Release\uzytkownik.obj
+         Release\main.obj
+         Release\pamiec.obj
+         Release\pliki.obj
+         Generating code
+         Finished generating code
+         SŁOWNIK.vcxproj -> D:\DOKUMENTY\GRZEGORZ\Dysk Google\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\Release\SŁOWNIK.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\DOKUMENTY\GRZEGORZ\Dysk Google\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\Release\SŁOWNIK.exe;#1" /manifest "Release\SŁOWNIK.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\SŁOWNIK.unsuccessfulbuild".
+         Touching "Release\SŁOWNIK.lastbuildstate".
+     1>Done Building Project "D:\DOKUMENTY\GRZEGORZ\Dysk Google\Grzesiek\Dokumenty\STUDIA\PK\Projekt\SŁOWNIK\SŁOWNIK.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95
